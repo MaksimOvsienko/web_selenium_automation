@@ -1,0 +1,14 @@
+2023-08-15 00:38:23,095 | test_add_to_cart | INFO | product limit = 200
+2023-08-15 00:38:24,707 | test_increase_product_cart | INFO | quantity_of_product_before_pressing_plus = 1
+2023-08-15 00:38:24,779 | test_increase_product_cart | INFO | quantity_of_product_after_pressing_plus = 2
+2023-08-15 00:38:24,894 | test_checkboxes_without_input | INFO | index of chosen checkbox = 1
+2023-08-15 00:38:26,701 | test_login_with_correct_data | INFO | 1234
+2023-08-15 00:38:39,634 | test_user_page | INFO | 1234
+2023-08-15 00:38:40,288 | test_user_page | INFO | Login is successfull, text HelpBox is present
+2023-08-15 00:52:35,771 | test_helpbox_shop_page_add_to_cart | INFO | product limit = 200
+2023-08-15 00:52:37,387 | test_helpbox_shop_page_increase_product_cart | INFO | quantity_of_product_before_pressing_plus = 1
+2023-08-15 00:52:37,459 | test_helpbox_shop_page_increase_product_cart | INFO | quantity_of_product_after_pressing_plus = 2
+2023-08-15 00:52:37,567 | test_helpbox_additional_products_page_checkboxes_without_input | INFO | index of chosen checkbox = 0
+2023-08-15 00:52:39,368 | test_helpbox_checkout_page_login_with_correct_data | INFO | 1234
+2023-08-15 00:52:51,955 | test_user_page | INFO | 1234
+2023-08-15 00:52:52,625 | test_user_page | INFO | Login is successfull, text HelpBox is present
