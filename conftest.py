@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
 # must be like ".../" without culture
-BASIC_URL = ""
+BASIC_URL = "sorry it's a secret"
 
 
 def log_setup():
