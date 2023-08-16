@@ -3,19 +3,27 @@ This is my pet project to try myself in automation of website which was develope
 ### About the product I tested
 It's a website for helping people with HIV. On the site you can register as a patient and order a free kit with an HIV test and other useful things.
 
-### Technologies used:
-* Selenium webdriver
-* Pytest framework
-* Python version 3.11
-
-### Main features:
+### Main features
 * End to end tests:
 * * login with invalid and valid inputted data
 * * making successfull order of product
 * Generation of html reports with pytest-html
 * Automatic screenshot for failed tests
+* Custom logger
 
-### How to run project:
+### Demo gifs
+Both scenarios successfull:
+[![SceJj.gif](https://s11.gifyu.com/images/SceJj.gif)](https://gifyu.com/image/SceJj)
+
+Failure of tests 8-10 from the first scenario. After the fail of each test, a screenshot is taken:
+[![ScePW.gif](https://s11.gifyu.com/images/ScePW.gif)](https://gifyu.com/image/ScePW)
+
+### Technologies used
+* Selenium webdriver
+* Pytest framework
+* Python version 3.11
+
+### How to run project
 1. In conftest.py input correct website homepage url into variable BASIC_URL
 2. Write "pytest" into console and enjoy.
 2.5. If you want to generate html report then type py.test --html=report.html into console
