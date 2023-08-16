@@ -25,5 +25,6 @@ Failure of tests 8-10 from the first scenario. After the fail of each test, a sc
 
 ### How to run project
 1. In conftest.py input correct website homepage url into variable BASIC_URL
-2. Write "pytest" into console and enjoy.
-2.5. If you want to generate html report then type py.test --html=report.html into console
+2. Type "pytest" into console and enjoy.
+
+If you want to generate html report then type into console: pytest --html=report.html
