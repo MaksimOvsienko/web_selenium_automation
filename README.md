@@ -24,6 +24,9 @@ Failure of tests 8-10 from the first scenario. After the fail of each test, a sc
 * Python version 3.11
 
 ### How to run project
+I can click on the dev site, but you can't, so this instruction is more like a reminder for me.
+
+Steps:
 1. In conftest.py input correct website homepage url into variable BASIC_URL
 2. Type "pytest" into console and enjoy.
 
